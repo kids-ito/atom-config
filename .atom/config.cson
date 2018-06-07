@@ -1,0 +1,47 @@
+"*":
+  "autoclose-html":
+    forceInline: [
+      "title"
+      "h1"
+      "h2"
+      "h3"
+      "h4"
+      "h5"
+      "h6"
+      "p"
+      "ul"
+      "ol"
+      "li"
+      "div"
+      "a"
+      ""
+    ]
+  core:
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      ""
+    ]
+    telemetryConsent: "no"
+    titleBar: "custom-inset"
+  editor:
+    fontSize: 13
+    scrollSensitivity: 200
+    showIndentGuide: true
+    showInvisibles: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "34a01c6f-259c-46cd-929a-9d278b00ae03"
+  "file-icons": {}
+  "no-title-bar": {}
+  "one-vibrancy":
+    effect: "ultra-dark"
+  term3:
+    colors: {}
+  welcome:
+    showOnStartup: false
